@@ -1,0 +1,25 @@
+[21-Nov-2024 12:03:48 UTC] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/supenmdw/public_html/tp/api.php on line 2
+[21-Nov-2024 12:03:48 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/supenmdw/public_html/tp/api.php on line 2
+[21-Nov-2024 12:03:48 UTC] PHP Warning:  Undefined variable $conn in /home/supenmdw/public_html/tp/api.php on line 23
+[21-Nov-2024 12:03:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/supenmdw/public_html/tp/api.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/supenmdw/public_html/tp/api.php on line 23
+[22-Nov-2024 13:59:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'supenmdw_kokou'@'premium57-3.web-hosting.com' (using password: YES) in /home/supenmdw/public_html/tp/db.php:8
+Stack trace:
+#0 /home/supenmdw/public_html/tp/db.php(8): mysqli->__construct()
+#1 /home/supenmdw/public_html/tp/api.php(2): include('/home/supenmdw/...')
+#2 {main}
+  thrown in /home/supenmdw/public_html/tp/db.php on line 8
+[22-Nov-2024 14:00:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'supenmdw_kokou'@'premium57-3.web-hosting.com' (using password: YES) in /home/supenmdw/public_html/tp/db.php:8
+Stack trace:
+#0 /home/supenmdw/public_html/tp/db.php(8): mysqli->__construct()
+#1 /home/supenmdw/public_html/tp/api.php(2): include('/home/supenmdw/...')
+#2 {main}
+  thrown in /home/supenmdw/public_html/tp/db.php on line 8
+[22-Nov-2024 14:00:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'supenmdw_kokou'@'premium57-3.web-hosting.com' (using password: YES) in /home/supenmdw/public_html/tp/db.php:8
+Stack trace:
+#0 /home/supenmdw/public_html/tp/db.php(8): mysqli->__construct()
+#1 /home/supenmdw/public_html/tp/api.php(2): include('/home/supenmdw/...')
+#2 {main}
+  thrown in /home/supenmdw/public_html/tp/db.php on line 8
